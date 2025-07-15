@@ -6,7 +6,7 @@ const skills = [
   { name: 'Networking', icon: Terminal, color: 'text-accent-red', category: 'Development' },
   { name: 'AI/ML', icon: Bot, color: 'text-white', category: 'AI' },
   { name: 'MCP', icon: Database, color: 'text-accent-red', category: 'Database' },
-  { name: 'HPC', icon: shield, color: 'text-white', category: 'Design' },
+  { name: 'HPC', icon: Shield, color: 'text-white', category: 'Design' },
   { name: 'Cybersecurity', icon: Terminal, color: 'text-accent-red', category: 'DevOps' }
 ];
 
