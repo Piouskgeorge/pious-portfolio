@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Database, Bot, Braces, Palette, Feather, Sparkles, Shield, Cpu, Terminal, Zap, Code, Github, Linkedin, Award, Trophy } from 'lucide-react';
+import profileImg from '../image/profile.png';
 
 const skills = [
   { name: 'Penetration Testing', icon: Shield, color: 'text-white', category: 'Security' },
@@ -151,7 +152,7 @@ const About = () => {
               />
               <div className="relative z-10 w-40 h-40 sm:w-48 sm:h-48 rounded-2xl overflow-hidden glass-card shadow-xl mx-auto">
                 <motion.img
-                  src={'/profile.png'}
+                  src={profileImg}
                   alt="Pious K George - Cybersecurity Professional"
                   className="w-full h-full object-cover rounded-2xl"
                   loading="lazy"
