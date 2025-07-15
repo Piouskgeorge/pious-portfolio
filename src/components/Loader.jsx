@@ -90,7 +90,7 @@ const Loader = () => {
                   />
                   <div className="absolute inset-2 sm:inset-3 bg-dark-card/50 rounded-full flex items-center justify-center">
                   <motion.img
-                    src="/src/image/ChatGPT Image Jun 18, 2025, 02_30_10 PM.png"
+                    src={'/profile.png'}
                       alt="Pious K George - Cybersecurity Professional"
                       className="w-full h-full object-cover rounded-full"
                       loading="lazy"

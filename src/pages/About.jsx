@@ -151,7 +151,7 @@ const About = () => {
               />
               <div className="relative z-10 w-40 h-40 sm:w-48 sm:h-48 rounded-2xl overflow-hidden glass-card shadow-xl mx-auto">
                 <motion.img
-                  src="/src/image/ChatGPT Image Jun 18, 2025, 02_30_10 PM.png"
+                  src={'/profile.png'}
                   alt="Pious K George - Cybersecurity Professional"
                   className="w-full h-full object-cover rounded-2xl"
                   loading="lazy"
