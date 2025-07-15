@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Sparkles, Zap, Code, Bot, Brain, Cpu, Rocket, Wifi, Globe, Shield } from 'lucide-react';
+import profileImg from '../image/profile.png';
 
 const Loader = () => {
   const [currentText, setCurrentText] = useState('');
@@ -90,7 +91,7 @@ const Loader = () => {
                   />
                   <div className="absolute inset-2 sm:inset-3 bg-dark-card/50 rounded-full flex items-center justify-center">
                   <motion.img
-                    src={'/profile.png'}
+                    src={profileImg}
                       alt="Pious K George - Cybersecurity Professional"
                       className="w-full h-full object-cover rounded-full"
                       loading="lazy"
